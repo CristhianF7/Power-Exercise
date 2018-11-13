@@ -1,32 +1,35 @@
-.App {
+body, input, button {
+  font-family: 'Roboto';
+}
+
+.app {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
+.app-header {
+  align-items: center;
   background-color: #282c34;
-  min-height: 100vh;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 200px;
+}
+
+.body {
+  padding: 50px;
+}
+
+.body>.text-number, .body>.btn {
+  border: 0;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 1px 1px 1px 1px lightgray;
+}
+
+.btn {
+  background-color: #282c34;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-weight: 500;
 }
